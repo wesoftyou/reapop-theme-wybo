@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "node-sass src/styles/styles.module.scss -o lib",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "install": "npm run build",
   },
   "repository": {
     "type": "git",
